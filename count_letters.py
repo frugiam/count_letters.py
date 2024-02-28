@@ -20,9 +20,3 @@ def count_letters(string):
 
     # Return the final letter count dictionary
     return letter_dict
-
-# Testing the function
-input_string = "AaB1234b"
-result = count_letters(input_string)
-print(f"Input string: {input_string}")
-print("Letter counts:", result)
